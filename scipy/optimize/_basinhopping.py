@@ -167,6 +167,8 @@ class BasinHoppingRunner(object):
             self.energy = minres.fun
             self.x = np.copy(minres.x)
             new_global_min = self.storage.update(minres)
+            print('minres.success')
+            print(minres.success)
 
         # print some information
         if self.disp:
