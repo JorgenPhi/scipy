@@ -47,6 +47,10 @@ Local (multivariate) optimization
    :toctree: generated/
 
    minimize - Interface for minimizers of multivariate functions.
+   minimize_scalar - Unified interface for minimizers of univariate functions
+   OptimizeResult - The optimization result returned by some optimizers
+   OptimizeWarning - The optimization encountered problems
+   InvalidResult - The optimization failed and result is invalid
 
 The `minimize` function supports the following methods:
 
